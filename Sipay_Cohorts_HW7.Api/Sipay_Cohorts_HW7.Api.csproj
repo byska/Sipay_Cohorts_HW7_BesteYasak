@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sipay_Cohorts_HW7.Business\Sipay_Cohorts_HW7.Business.csproj" />
+    <ProjectReference Include="..\Sipay_Cohorts_HW7.DataAccess\Sipay_Cohorts_HW7.DataAccess.csproj" />
+    <ProjectReference Include="..\Sipay_Cohorts_HW7.Entities\Sipay_Cohorts_HW7.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
